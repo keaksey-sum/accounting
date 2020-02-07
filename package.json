@@ -1,7 +1,7 @@
 {
-  "name": "tic-tac-toe",
+  "name": "accounting",
   "version": "1.0.0",
-  "description": "Tic-Tac-Toe with es6 and webpack",
+  "description": "accounting with es6 and webpack",
   "main": "app/index.js",
   "scripts": {
     "build": "webpack --config webpack-production.config.js --env dev && webpack --config webpack-production.config.js --env build",
@@ -15,21 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/debabrata100/tic-tac-toe.git"
+    "url": "git+https://github.com/keaksey-sum/accounting.git"
   },
   "keywords": [
     "es6",
     "webpack",
     "gamelibrary"
   ],
-  "author": "m.debabrata100@gmail.com",
+  "author": "keaksey.sum@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/debabrata100/tic-tac-toe/issues"
-  },
-  "homepage": "https://github.com/debabrata100/tic-tac-toe#readme",
+  "homepage": "https://github.com/keaksey-sum/accounting.git#readme",
   "dependencies": {
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "accounting": "^0.4.1",
+    "locale-currency": "0.0.2",
+    "object-assign": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

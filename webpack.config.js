@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 const path = require('path');
 const env = require('yargs').argv.env; // use --env with webpack 2
-let libraryName = 'game-lib';
+let libraryName = 'accounting';
 
 let plugins = [], outputFile;
 
